@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    font-size: 26px;
+}
+
+header nav ul li a{
+    font-size: 20px;
+}
+
+body{
+    background-color: #272727;
+    font-family: "Strait", serif;
+    color: white;
+}
+
+/*CABEÇALHO ======================================================*/
+
+/*font-family: "Anton", sans-serif;
+font-family: "Strait", serif;*/
+
+
+
+header{
+    background-color: #c60c13;
+    color: white;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 5px solid black ;
+}
+
+header h1{
+    text-shadow: 2px 2px 4px black, -2px -2px 4px black, 2px -2px 4px black, -2px 2px 4px black;
+}
+
+.colorizing{
+    color: #e40b13;
+    margin-left: 10px;
+}
+
+header h1,
+header nav ul li,
+section h2,
+section a,
+form button,
+section h3{
+    font-family: "Anton", sans-serif;
+    font-weight: normal;
+}
+
+header .container, section .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+header .container img{
+    max-width: 10%;
+    max-height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+header nav ul li{
+    display: inline;
+    margin-right: 18px;
+}
+
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    /*text-shadow: 2px 2px 4px black, -2px -2px 4px black, 2px -2px 4px black, -2px 2px 4px black;*/
+}
+
+header nav ul li a:hover{
+    color: #272727;
+    /*text-shadow: 2px 2px 4px white, -2px -2px 4px white, 2px -2px 4px white, -2px 2px 4px white;*/
+}
+
+
+/* HISTÓRIA ===================================================================================== */
+
+section .container{
+    margin-top: 50px;
+    align-items: flex-start;
+}
+
+section h2{
+    color: #c60c13;
+    margin-bottom: 8px;
+}
+
+section img{
+    max-width: 800px;
+    margin-right: 18px;
+}
+
+section p{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+section a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background-color: #c60c13;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    height: 40px;
+}
+
+section a:hover{
+    color: #272727;
+}
+
+
+/* DOWNLOAD ========================================================================================= */
+
+#download{
+    background-color: #c60c12c0;
+    margin-top: 100px;
+    box-sizing: border-box;
+    border-top: 5px solid #f6b234 ;
+}
+
+section video{
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
+}
+
+.download_page{
+    display: block;
+    justify-content: space-between;
+}
+
+.download_page h2{
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+
+.download_page a{
+    margin-top: 80px;
+    display: flex;
+    height: 100px;
+    width: 400px;
+    justify-content: center;
+    margin-left: 34%;
+    font-size: 40px;
+    background-color: #272727;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.download_page a:hover{
+    color: #f6b234;
+}
+
+
+
+/*CONTATO ===========================================================================================*/
+
+
+#contact{
+    box-sizing: border-box;
+    border-top: 5px solid #f6b234 ;
+    margin-bottom: 100px;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact_page h2{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.contact_methods{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15%;
+}
+
+form input, textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form h3,
+section h3{
+    font-size: 26px;
+    margin-bottom: 8px;
+    color: #f6b234;
+}
+
+form input,
+textarea{
+    font-family: "Strait", serif;
+    background-color: #fff;
+}
+
+form button{
+    background-color: #f6b234;
+    cursor: pointer;
+    font-size: 20px;
+    color: #272727;
+}
+
+form button:hover{
+    background-color: #f8c464;
+    color: black;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+
+/*redes sociais*/
+
+.social_media img{
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-start;
+    height: 60px;
+}
+
+.yt img{
+    height: 50px;
+}
+
+.www img{
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.social_media li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social_media li a{
+    text-decoration: none;
+    background-color: #272727;
+    margin-bottom: 30px;
+}
+
+/*PARCEIROS */
+
+.partner{
+    display: flex;
+    justify-content: center;
+}
+
+.partner ul li{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.partner img{
+    height: 60px;
+    margin-top: 30px;
+}
+
+.take_two img{
+    background-color: white;
+    box-sizing: border-box;
+    border: 3px solid white;
+}
+
+.h3_partner{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*RODAPÉ*/
+
+footer,
+footer a{
+    display: flex;
+    align-items: center;
+    background-color: #c60c13;
+    height: 40px;
+    font-family: "Strait", serif;
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: small;
+    margin-left: 16px;
+}
+
+.copy p{
+    font-size: larger;
+}
